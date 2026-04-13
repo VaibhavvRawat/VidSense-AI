@@ -1,0 +1,40 @@
+# Audio/Video artifacts
+audio.mp3
+compressed.mp3
+*.mp3
+*.mp4
+*.webm
+
+# ChromaDB vector store (regenerated at runtime)
+chroma_db/
+
+# HuggingFace / Whisper model caches
+models/
+.cache/
+
+# Environment variables — never commit secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter / Colab artifacts
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db

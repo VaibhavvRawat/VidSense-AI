@@ -1,0 +1,26 @@
+# Core pipeline
+yt-dlp
+openai-whisper
+ffmpeg-python
+
+# LangChain + vector store
+langchain
+langchain-community
+langchain-huggingface
+langchain-chroma
+langchain-openai
+sentence-transformers
+chromadb
+
+# Summarization
+transformers
+torch
+
+# LLM
+google-generativeai
+
+# Utilities
+python-dotenv
+
+# Web UI
+streamlit
