@@ -1,4 +1,4 @@
-# Video package — VidChat pipeline modules
+# Video package — VidSense pipeline modules
 from .downloader import download_audio, compress_audio
 from .transcriber import speech_to_text
 from .embeddings import generate_embeddings, closest, create_prompt

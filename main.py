@@ -1,5 +1,5 @@
 """
-main.py — VidChat entry point
+main.py — VidSense-AI entry point
 
 Usage:
     python main.py --url "https://www.youtube.com/watch?v=..." --question "Your question"
@@ -41,7 +41,7 @@ def qna(question: str, db) -> str:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="VidChat — Chat with any YouTube video")
+    parser = argparse.ArgumentParser(description="VidSense-AI — Chat with any YouTube video")
     parser.add_argument("--url", required=True, help="YouTube video URL")
     parser.add_argument("--question", default=None, help="Question to ask about the video")
     parser.add_argument("--summarize", action="store_true", help="Print a summary of the video")
